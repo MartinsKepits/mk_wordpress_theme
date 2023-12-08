@@ -1,0 +1,13 @@
+// TEMPORALLY HIDE WORDPRESS ADMIN BAR
+#wpadminbar {
+  display: none;
+}
+
+html {
+  margin-top: 0 !important;
+}
+
+body {
+  background-color: $gray-900;
+  font-family: 'Ubuntu', 'Roboto', sans-serif;
+}
