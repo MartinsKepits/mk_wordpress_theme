@@ -13,3 +13,4 @@ function mk_theme() {
 add_action( 'wp_enqueue_scripts', 'mk_theme' );
 
 require_once get_template_directory() . '/includes/social-links-customizations.php';
+require_once get_template_directory() . '/includes/contacts-customizations.php';
