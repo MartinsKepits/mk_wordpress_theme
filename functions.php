@@ -7,5 +7,9 @@ function mk_theme() {
 
     // CSS
     wp_enqueue_style( 'style', get_template_directory_uri().'/assets/dist/css/style.css' );
+    // Navigation JS
+    wp_enqueue_script( 'main_js', get_template_directory_uri() . '/assets/js/sections/navbar.js');
 }
 add_action( 'wp_enqueue_scripts', 'mk_theme' );
+
+require_once get_template_directory() . '/includes/social-links-customizations.php';
