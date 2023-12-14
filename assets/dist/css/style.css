@@ -12191,6 +12191,7 @@ body.disable-scroll {
   }
   .navbar .navbar-menu .menu-links .navbar-nav .menu-item.menu-item-has-children .sub-menu {
     display: none;
+    list-style: none;
   }
   .navbar .navbar-menu .menu-links .navbar-nav .menu-item.menu-item-has-children.open-submenu > a:after {
     transform: rotate(-180deg);
