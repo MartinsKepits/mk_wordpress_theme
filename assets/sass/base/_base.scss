@@ -8,9 +8,14 @@ html {
 }
 
 body {
+  color: $white;
   background-color: $gray-900;
   font-family: 'Ubuntu', 'Roboto', sans-serif;
   letter-spacing: 2px;
+
+  main {
+    padding-bottom: 60px;
+  }
 
   // Disable Scroll
   &.disable-scroll {

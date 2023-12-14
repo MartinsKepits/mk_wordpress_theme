@@ -18,6 +18,7 @@
     </head>
 
     <body <?php body_class(); ?>>
+        <?php wp_body_open(); ?>
 
         <nav class="navbar navbar-expand-lg">
             <div class="container">
@@ -124,6 +125,3 @@
                 <div class="navbar-menu-bg"></div>
             </div>
         </nav>
-
-        <!-- Main Content Start -->
-        <main role="main" class="container">

@@ -6,10 +6,6 @@
  *
  */
 ?>
-
-        <!-- Main Content End -->
-        </main>
-
         <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -73,6 +69,8 @@
                 <p><?= pll__('Website created by Mārtiņš Ķepīts'); ?></p>
             </div>
         </footer>
+
+        <?php wp_footer(); ?>
 
     </body>
 </html>
