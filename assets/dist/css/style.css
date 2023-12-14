@@ -12409,6 +12409,7 @@ body.disable-scroll {
   justify-content: center;
   align-items: center;
   height: 50px;
+  text-align: center;
 }
 .block-hero .slick-prev,
 .block-hero .slick-next {
